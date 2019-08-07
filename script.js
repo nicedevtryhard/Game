@@ -78,9 +78,8 @@ door3.onclick = () => {
 
 startButton.onclick = () => {
   if(!currentlyPlaying) {
-
-}
-  startRound();
+    startRound();
+  }
 }
 
 function startRound() {
